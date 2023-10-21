@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  margin: 2rem 0 0 0;
+}
+.container .swiper {
+  width: 70%;
+  height: 12rem;
+  position: unset;
+}
+.swiper .swiper-button-prev {
+  position: absolute;
+  left: 6rem;
+  color: var(--black);
+}
+.swiper .swiper-button-next {
+  position: absolute;
+  right: 6rem;
+  color: var(--black);
+}

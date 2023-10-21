@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.container {
+  width: 20rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+}
+.container,
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container form button {
+  background-color: var(--bg);
+  border: none;
+  border-radius: 10rem;
+  padding: 0.6rem 0;
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container span {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.container .txtField > :nth-child(1) {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.container .txtField > :nth-child(2) {
+  width: 100%;
+  padding: 0.6rem 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+}
+
+.container form .signup {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.container form .signup .signupButton {
+  color: rgb(59, 59, 250);
+  border-bottom: 0.5px solid rgb(59, 59, 250);
+}

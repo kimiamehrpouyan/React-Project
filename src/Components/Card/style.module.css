@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.container .leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .leftSide .name {
+  display: flex;
+  flex-direction: column;
+}
+.container .leftSide .name > :nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.container .leftSide .name > :nth-child(2) {
+  font-size: 0.7rem;
+}
+.container .leftSide > :nth-child(2) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.container .leftSide > :nth-child(3) {
+  font-size: 0.6rem;
+  border: 1px solid var(--black);
+  padding: 5px 10px;
+  width: max-content;
+  border-radius: 15px;
+}
+.container > :nth-child(2) {
+  height: 85%;
+  width: 35%;
+  transform: rotate(-20deg);
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+}

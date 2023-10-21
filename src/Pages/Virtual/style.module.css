@@ -1,0 +1,36 @@
+.virtual {
+  margin: 6rem 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.virtual .leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+.virtual .leftSide > :nth-child(1) {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.virtual .leftSide > :nth-child(2) {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  width: 20rem;
+  display: block;
+}
+.virtual .leftSide > :nth-child(3) {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.virtual .leftSide img {
+  position: absolute;
+  width: 10rem;
+  bottom: 3rem;
+}
+
+.virtual .rightSide .wrapper {
+  width: 30rem;
+}

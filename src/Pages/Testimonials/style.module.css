@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  overflow: hidden;
+}
+.container .leftSide,
+.container .rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container .leftSide {
+  align-items: flex-start;
+  width: 16rem;
+}
+.container .rightSide {
+  align-items: flex-end;
+}
+.container .leftSide > :nth-child(1),
+.container .rightSide > :nth-child(1) {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container .leftSide > :nth-child(2),
+.container .rightSide > :nth-child(2) {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.container > :nth-child(2) {
+  width: 25rem;
+  justify-self: center;
+}
+
+.reviews {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.carousal {
+  width: 100%;
+}
+.carousal .swiper {
+  width: 90%;
+}
+
+.testimonial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
+  margin: 2rem 0;
+}
+.testimonial img {
+  position: absolute;
+  top: -1.5rem;
+  left: 45%;
+  width: 3rem;
+}
+.testimonial .comment {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.testimonial hr {
+  height: 1px;
+  width: 80%;
+  background: rgb(198, 198, 198);
+  border: none;
+}
+.testimonial .name {
+  font-weight: 500;
+}

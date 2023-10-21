@@ -1,0 +1,191 @@
+{
+  "sliderProducts": [
+    {
+      "name": "SKIN",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img1.png"
+    },
+    {
+      "name": "SKIN",
+      "detail": "Super Skin Care",
+      "price": "30",
+      "img": "assets/img2.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img3.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img4.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img5.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img6.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img7.png"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img8.png"
+    }
+  ],
+  "ProductsData": [
+    {
+      "name": "SKIN",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img1.png",
+      "type": "skin care"
+    },
+    {
+      "name": "SKIN",
+      "detail": "Super Skin Care",
+      "price": "30",
+      "img": "assets/img2.png",
+      "type": "skin care"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img3.png",
+      "type": "skin care"
+    },
+    {
+      "name": "Foundation",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img4.png",
+      "type": "foundation"
+    },
+    {
+      "name": "CONDITIONER",
+      "detail": "Super Skin Care",
+      "price": "30",
+      "img": "assets/img5.png",
+      "type": "conditioner"
+    },
+    {
+      "name": "NATURE",
+      "detail": "Super Skin Care",
+      "price": "25",
+      "img": "assets/img6.png",
+      "type": "skin care"
+    },
+    {
+      "name": "CONDITIONER",
+      "detail": "Best Conditioner",
+      "price": "30",
+      "img": "assets/img7.png",
+      "type": "conditioner"
+    },
+    {
+      "name": "CONDITIONER",
+      "detail": "Best Conditioner",
+      "price": "30",
+      "img": "assets/img8.png",
+      "type": "conditioner"
+    },
+    {
+      "name": "CONDITIONER",
+      "detail": "Best Conditioner",
+      "price": "30",
+      "img": "assets/img9.png",
+      "type": "conditioner"
+    },
+    {
+      "name": "CONDITIONER",
+      "detail": "Best Conditioner",
+      "price": "30",
+      "img": "assets/img10.png",
+      "type": "conditioner"
+    },
+    {
+      "name": "FOUNDATION",
+      "detail": "Nourish your skin",
+      "price": "12",
+      "img": "assets/img11.png",
+      "type": "foundation"
+    },
+    {
+      "name": "FOUNDATION",
+      "detail": "Nourish your skin",
+      "price": "12",
+      "img": "assets/img12.png",
+      "type": "foundation"
+    },
+    {
+      "name": "FOUNDATION",
+      "detail": "Nourish your skin",
+      "price": "12",
+      "img": "assets/img13.png",
+      "type": "foundation"
+    },
+    {
+      "name": "FOUNDATION",
+      "detail": "Nourish your skin",
+      "price": "14",
+      "img": "assets/img11.png",
+      "type": "foundation"
+    }
+  ],
+  "TestimonialsData": [
+    {
+      "image": "assets/profile1.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "John Alendon"
+    },
+    {
+      "image": "assets/profile2.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Natasha"
+    },
+    {
+      "image": "assets/profile1.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Alex Hormonzi"
+    },
+    {
+      "image": "assets/profile1.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "John Alendon"
+    },
+    {
+      "image": "assets/profile2.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Natasha"
+    },
+    {
+      "image": "assets/profile1.png",
+      "comment": " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Alex Hormonzi"
+    }
+  ],
+  "users": [
+    {
+      "username": "kimia",
+      "password": "123",
+      "id": 1
+    },
+  ]
+}

@@ -1,0 +1,19 @@
+:root {
+  --bg: #f8e367;
+  --black: #343434;
+  --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+  --shadow2: 0px 13px 46px rgba(0, 0, 0, 0.13);
+  --orange: #FE956F;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
